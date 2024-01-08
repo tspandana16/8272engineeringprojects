@@ -222,7 +222,7 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-color: #e05306;
+    background-color: #fff;
     height: auto;
     padding-top: 15px;
     padding-bottom: 5px;
@@ -238,7 +238,7 @@ button {
     padding-right: 10px;
     padding-left: 10px;
     font-size: 18px;
-    color: #ffffff;
+    color: #0056b3;
 }
 
 .menu_text ul {
@@ -247,14 +247,15 @@ button {
 }
 
 .menu_text li a {
-    color: #ffffff;
+    color: #0056b3;
 }
 
 .banner_section {
     width: 100%;
     float: left;
-    background-color: #e05306;
+    background-color: #2464ac;
     height: auto;
+	margin-top: -10px;
 }
 
 #carouselExampleIndicators a.carousel-control-prev {
@@ -308,9 +309,13 @@ button {
     left: 125px;
 }
 
+.header_line {
+    position: relative;
+    margin-top: -25px;
+}
+
 .logo {
     position: relative;
-    left: -83px;
 }
 
 .round {
@@ -345,6 +350,10 @@ button {
     font-size: 40px;
     color: #ffffff;
     font-weight: bold;
+}
+
+.filter_icon {
+ filter: sepia(300%) hue-rotate(150deg) saturate(450%);
 }
 
 .building_text {
@@ -926,6 +935,7 @@ textarea#comment.massage-bt::placeholder {
 .menu_text {
     width: 100%;
     float: left;
+	padding-top: 50px;
 }
 
 .overlay .closebtn {
